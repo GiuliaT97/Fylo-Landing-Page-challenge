@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+  <!--Reset Style-->
+  <link rel="stylesheet" href="reset.css">
+
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!--Style-->
+  <link rel="stylesheet" href="style.css">
+ 
+
+
+
+  <!-- Attribution Style -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: palevioletred; }
+  </style>
+
+</head>
+<body>
+
+
+  <main class="page">
+
+
+    
+
+      <header class="header">
+
+        <img src="images/logo.svg">
+
+        <ul class="header_menu">
+          <li>Features</li>
+          <li>Team</li>
+          <li>Sign In</li>
+        </ul>
+
+
+      </header>
+
+      <div class="section1 container">
+
+        <div class="lefts1">
+
+          <h1 class="title">
+            All your files in one secure location, accessible anywhere.
+          </h1>
+          <p class="info">
+            Fylo stores your most important files in one secure location. 
+            Access them wherever you need, share and collaborate with friends, 
+            family, and co-workers.
+          </p>
+
+          <div class="email">
+
+            <div class="input">
+              <input type="email" class="input_field" placeholder="Enter your email..." required>
+            </div>
+            
+            <div class="submit">
+              <button>Get Started</button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="rights1">
+          <img src="images/illustration-1.svg">
+        </div>
+
+
+      </div>
+
+      <picture class="curve">
+
+        <source media="(max-width:700px)" srcset="images/bg-curve-mobile.svg">
+        <img src="images/bg-curve-desktop.svg" alt="curve">
+
+      </picture>
+
+      <div class="section2 container">
+
+        <div class="lefts1">
+
+          <h1 class="title2">
+            Stay productive, wherever you are
+          </h1>
+
+          <p class="info2">
+            Never let location be an issue when accessing your files. Fylo has you 
+            covered for all of your file storage needs.
+          </p>
+
+          <p class="info2">
+            Securely share files and folders with friends, family and colleagues for 
+            live collaboration. No email attachments required!
+          </p>
+
+          <div class="link">
+            <span>See how Fylo works</span>
+            <img src="images/icon-arrow.svg">
+          </div>
+
+          <div class="comment">
+
+            <img src="images/icon-quotes.svg">
+            <p class="comment_text">
+              Fylo has improved our team productivity by an order of magnitude. Since 
+              making the switch our team has become a well-oiled collaboration machine.
+            </p>
+
+            <div class="profile">
+              <div class="profile_img">
+                <img src="images/avatar-testimonial.jpg">
+              </div>
+              <div class="profile_info">
+                <h3>
+                  Kyle Burton
+                </h3>
+                <p>Founder & CEO, Huddle</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+       <div class="rights2">
+        <img src="images/illustration-2.svg">
+       </div>
+
+      </div>
+
+      <div class="submit_section">
+
+        <div class="submit_info">
+          <h2>
+            Get early access today
+          </h2>
+
+        <p>
+        It only takes a minute to sign up and our free starter tier is extremely generous. 
+        If you have any questions, our support team would be happy to help you.
+        </p>
+
+        </div>
+
+        <div class="email2">
+
+          <div class="input2">
+            <input type="email" class="input_field2" placeholder="email@example.com" required>
+          </div>
+          
+          <div class="submit2">
+            <button>Get Started For Free</button>
+          </div>
+
+        </div>
+
+
+
+      </div>
+      <footer class="page_footer">
+
+        <div class="footer_logo">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="166" height="49"><defs><path id="a" d="M.014.03h93.96v48.29H.015z"/></defs><g fill="none" fill-rule="evenodd"><path d="M0 14.13v.123l27.95 13.13L56 14.209v-.033L27.95 1 0 14.13zm10.077.062L27.95 5.795l17.877 8.397-17.877 8.396-17.874-8.396zM27.95 32.483L0 19.55v4.784l27.95 12.964L56 24.289v-4.784L27.95 32.483zm0 9.703L0 29.25v4.783L27.95 47 56 33.99v-4.784l-28.05 12.98z" fill="#FFFFFF"/><g transform="translate(72)"><mask id="b" fill="#FFFFFF"><use xlink:href="#a"/></mask><path d="M87.56 24.152a8.1 8.1 0 0 0-2.161-5.573 7.259 7.259 0 0 0-2.34-1.673 6.864 6.864 0 0 0-2.85-.601c-1.01 0-1.961.2-2.852.601a7.257 7.257 0 0 0-2.34 1.673 8.102 8.102 0 0 0-2.16 5.574 8.102 8.102 0 0 0 2.16 5.573 7.257 7.257 0 0 0 2.34 1.672 6.864 6.864 0 0 0 2.851.602c1.01 0 1.96-.2 2.852-.602a7.259 7.259 0 0 0 2.339-1.672 8.1 8.1 0 0 0 2.16-5.574zm6.415 0c0 1.932-.357 3.723-1.07 5.373a13.098 13.098 0 0 1-2.94 4.28c-1.247 1.205-2.71 2.156-4.388 2.854-1.678.699-3.468 1.048-5.369 1.048-1.9 0-3.683-.349-5.346-1.048a13.863 13.863 0 0 1-4.366-2.876 13.351 13.351 0 0 1-2.94-4.302c-.713-1.65-1.07-3.426-1.07-5.329 0-1.873.364-3.634 1.092-5.284a13.92 13.92 0 0 1 2.962-4.325 13.671 13.671 0 0 1 4.367-2.898 13.552 13.552 0 0 1 5.301-1.048c1.901 0 3.69.35 5.369 1.048 1.678.698 3.14 1.65 4.388 2.854 1.248 1.204 2.228 2.638 2.94 4.302.713 1.665 1.07 3.449 1.07 5.351zM64.258 36.905a8.6 8.6 0 0 1-1.715.58c-.638.148-1.3.222-1.982.222a9.84 9.84 0 0 1-2.74-.379 6.003 6.003 0 0 1-2.295-1.226c-.653-.565-1.173-1.3-1.56-2.207-.385-.907-.578-2-.578-3.277V.029h6.549v29.474c0 1.07.215 1.806.646 2.207.43.401.943.602 1.537.602.742 0 1.455-.223 2.138-.669v5.262zM50.492 11.22L38.908 41.854c-.861 2.289-1.99 3.939-3.386 4.95-1.396 1.01-3.06 1.515-4.99 1.515-.297 0-.623-.022-.98-.066a7.352 7.352 0 0 1-1.025-.201l-2.138-5.975a8.486 8.486 0 0 0 1.56.557c.534.134 1.039.201 1.514.201 1.01 0 1.93-.23 2.762-.691.832-.46 1.47-1.315 1.916-2.564l.891-2.586-9.935-25.773h6.995l5.925 16.588 5.57-16.588h6.905zM23.538 7.342H6.786v8.294h16.529v5.618H6.785v15.784H.015V1.412h23.524v5.93z" fill="#FFFFFF" mask="url(#b)"/></g></g></svg>
+        </div>
+
+        <div class="footer_item_1">
+
+
+          <div class="phone">
+            <img src="images/icon-phone.svg">
+            <h3>Phone: +1-543-123-4567</h3>
+          </div>
+
+          <div class="phone">
+            <img src="images/icon-email.svg">
+            <h3>example@fylo.com</h3>
+          </div>
+
+
+        </div>
+
+        <div class="footer_item_2">
+        
+
+          <ul class="links">
+
+            <li>About Us</li>
+            <li>Jobs</li>
+            <li>Press</li>
+            <li>Blog</li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer_item_3">
+
+          <ul class="links">
+        
+            <li>Contact Us</li>
+            <li>Terms</li>
+            <li>Privacy</li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer_item_4">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 333333 333333" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"><path d="M166667 0c46023 0 87690 18655 117851 48816s48816 71828 48816 117851-18655 87690-48816 117851-71828 48816-117851 48816-87690-18655-117851-48816S0 212690 0 166667 18655 78977 48816 48816 120644 0 166667 0zm16500 111666h27500V78664h-27500c-21226 0-38497 17271-38497 38497v16500h-22003v33005h21997v88003h33004v-88003h27500l5500-33004h-32999v-16500c0-2982 2517-5500 5500-5500v3zm90128-51628c-27287-27287-64987-44165-106628-44165-41642 0-79341 16878-106628 44165s-44165 64987-44165 106628c0 41642 16878 79341 44165 106628s64987 44165 106628 44165c41642 0 79341-16878 106628-44165s44165-64987 44165-106628c0-41642-16878-79341-44165-106628z" fill="#FFFFFF" fill-rule="nonzero"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3333 3333" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"><path d="M1667 0c460 0 877 187 1179 488 302 302 488 718 488 1179 0 460-187 877-488 1179-302 302-718 488-1179 488-460 0-877-187-1179-488C186 2544 0 2128 0 1667c0-460 187-877 488-1179C790 186 1206 0 1667 0zm867 1129c-64 29-132 47-204 56 74-44 130-114 157-197-69 41-145 70-226 86-65-69-157-112-260-112-197 0-356 159-356 356 0 28 3 55 9 81-296-15-558-157-733-372-31 54-48 116-48 179 0 123 63 232 158 296-58-2-113-18-161-44v4c0 172 123 316 286 349-30 8-61 13-94 13-23 0-45-2-67-6 46 141 177 244 332 247-122 96-275 152-442 152-29 0-57-2-85-5 158 101 345 160 546 160 654 0 1013-542 1013-1013 0-16 0-31-1-46 70-50 130-112 177-184zm226-555c-280-280-666-453-1093-453S853 294 574 574c-280 280-453 666-453 1093s173 814 453 1093c280 280 666 453 1093 453s814-173 1093-453c280-280 453-666 453-1093s-173-814-453-1093z" fill="#FFFFFF" fill-rule="nonzero"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3333 3333" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"><path d="M1662 1174c285 0 516 231 516 516s-231 516-516 516-516-231-516-516 231-516 516-516zm-385-421h780c293 0 532 237 532 525v778c0 289-239 525-532 525h-780c-293 0-532-236-532-525v-778c0-289 240-525 532-525zm884 349c46 0 84 37 84 84 0 46-37 84-84 84-46 0-84-37-84-84 0-46 37-84 84-84zm-820-200h652c245 0 445 199 445 443v656c0 244-200 443-445 443h-652c-245 0-445-199-445-443v-656c0-244 200-443 445-443zM1667 0c460 0 877 187 1179 488 302 302 488 718 488 1179 0 460-187 877-488 1179-302 302-718 488-1179 488-460 0-877-187-1179-488C186 2544 0 2128 0 1667c0-460 187-877 488-1179C790 186 1206 0 1667 0zm1093 573c-280-280-666-453-1093-453S853 293 574 573c-280 280-453 666-453 1093s173 814 453 1093c280 280 666 453 1093 453s814-173 1093-453c280-280 453-666 453-1093s-173-814-453-1093zm-1098 774c188 0 341 153 341 341s-153 341-341 341c-189 0-341-153-341-341s153-341 341-341z" fill="#FFFFFF"/></svg>
+        </div>
+
+      </footer>
+
+
+
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">GiuliaT97</a>.
+    </p>
+  </footer>
+
+
+</body>
+</html>
